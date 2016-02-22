@@ -1,8 +1,9 @@
 ###CN
-
+##相关资料
 相关视频一[https://www.youtube.com/watch?v=YBNBr9ECXLo]
 视频二[https://www.youtube.com/watch?v=g7f1Az5fxgU]
 视频三[https://www.youtube.com/watch?v=CdV0VGYhKXk]
+如果不懂英语,视频点击设置---显示字幕---字幕语言选择自动翻译
 聚合物说明文档[https://elements.polymer-project.org/]
 
 聚合物文档大多在降价与一些HTML。 [化身] [化身]使用
