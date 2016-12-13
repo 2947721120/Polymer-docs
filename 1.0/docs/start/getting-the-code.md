@@ -53,26 +53,28 @@ This generates a basic `bower.json` file. Some of the questions, like
 
 The next step is to install {{site.project_title}}:
 
-    bower install --save Polymer/polymer#^1.2.0
-
-Depending on your shell, `Polymer/polymer#^1.2.0` may need to be escaped appropriately.
-If you get an error somewhere around the lines of 'match not found', try surrounding 
-it with single or double quotes.
+    bower install --save Polymer/polymer
 
 Bower adds a `bower_components/` folder in the root of your project and
 fills it with {{site.project_title}} and its dependencies.
 
-**Tip:** `--save` adds the item as a dependency in *your* app's bower.json:
-```
+The `--save` adds the item as a dependency in *your* app's bower.json:
+
+<pre>
 {
   "name": "my-project",
   "version": "0.0.0",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.2.0"
+    "polymer": "Polymer/polymer#~1.<var>X.X</var>"
   }
 }
-```
-{: .alert .alert-success }
+</pre>
+
+Where <code>1.<var>X.X</var></code> is the current stable version of
+{{site.project_title}}. For example, if the current version is 1.2.3,
+the dependency line will show `#~1.2.3`, which means that your project
+requires a {{site.project_title}} version equal to or greater than 1.2.3,
+but less than 2.0.
 
 #### Updating packages {#updatebower}
 
